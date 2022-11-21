@@ -45,7 +45,7 @@ Install mysql container with below command
 ## Step:
 
 Configure db in tomcat
-
+---
 <p> <Context> </p>                                                                      
    <p> <Resource </p>                                                                  
        <p> name="jdbc/keen" type="javax.sql.DataSource"      </p>                     
@@ -55,6 +55,9 @@ Configure db in tomcat
        <p> username="root" password="redhat@123" </p>                                     
 <p> </Context> </p>                                          
 
+---
 
+Restart and chek the tomcat again its working
 
+### Thanks
 
