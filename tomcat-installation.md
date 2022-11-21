@@ -24,3 +24,7 @@ Build tomcat docker image with below command
 ## Step:
 run tomcat container with below command
 <p> docker run -itd -p 8082:8080 tomcat </p>
+## Step:
+Check the running container status
+
+![Alt text](https://github.com/qayoom321/tomcat.md/blob/main/Screenshot%20from%202022-11-21%2016-33-30.png "container status")
