@@ -39,4 +39,22 @@ check the status of tomcat on browser
 
 
 ## Step:
-Check the tomcat on browser
+Install mysql container with below command 
+<p> docker run -itd -p 3306:3306 mysql </p>
+
+## Step:
+
+Configure db in tomcat
+
+<p> <Context> </p>                                                                      
+   <p> <Resource </p>                                                                  
+       <p> name="jdbc/keen" type="javax.sql.DataSource"      </p>                     
+       <p> maxActive="100" maxIdle="30" maxWait="10000"   </p>                         
+       <p> url="jdbc:mysql://172.17.0.3:3306/keen"     </p>                            
+       <p> driverClassName="com.mysql.jdbc.Driver"  </p>                               
+       <p> username="root" password="redhat@123" </p>                                     
+<p> </Context> </p>                                          
+
+
+
+
