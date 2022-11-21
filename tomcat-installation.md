@@ -32,3 +32,6 @@ run tomcat container with below command
 Check the running container status
 
 ![Alt text](https://github.com/qayoom321/tomcat.md/blob/main/Screenshot%20from%202022-11-21%2016-33-30.png "container status")
+
+## Step:
+Check the tomcat on browser
