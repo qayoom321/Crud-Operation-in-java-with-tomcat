@@ -68,7 +68,7 @@ check the database,i have created "keen databases"
  
 ## Step :
 
-Create table<I am going to create a new table "engineer" with below command
+Create table I am going to create a new table "engineer" with below command 
 
 <p> CREATE TABLE engineer(name VARCHAR(50) NOT NULL,role VARCHAR(30) NOT NULL,project VARCHAR(60) NOT NULL,joining_year INT NOT NULL,PRIMARY KEY(name)); </p>
 
