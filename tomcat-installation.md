@@ -35,7 +35,7 @@ Check the running container status
 
 ## Step:
 check the status of tomcat on browser
-![Alt text](https://github.com/qayoom321/tomcat.md/blob/main/tomcat-status.png "tomcat status")
+![Alt text](https://github.com/qayoom321/tomcat/blob/main/sample-hello.png "tomcat status")
 
 
 ## Step:
