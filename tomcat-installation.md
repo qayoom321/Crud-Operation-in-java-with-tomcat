@@ -39,30 +39,51 @@ check the status of tomcat on browser
 
 
 ## Step:
+
 Install mysql container with below command 
+
 <p> docker run -itd -p 3306:3306 mysql </p>
+
 ## Step:
+
 connect mysql on desktop from running container with below command 
+
 <p> mysql -h 172.17.0.3 -u root -p </p>
+
  below is screen shot
+ 
  ![Alt text](https://github.com/qayoom321/tomcat/blob/main/mysql-connect.png "mysql connect")
+ 
 ## Step:
+
 check the database,i have created "keen databases"
+
  ![Alt text](https://github.com/qayoom321/tomcat/blob/main/db-show.png "mysql show")
  
  ## Step:
+ 
  use keen database
+ 
  ![Alt text](https://github.com/qayoom321/tomcat/blob/main/use-data.png "mysql use")
+ 
 ## Step :
+
 Create table<I am going to create a new table "engineer" with below command
+
 <p> CREATE TABLE engineer(name VARCHAR(50) NOT NULL,role VARCHAR(30) NOT NULL,project VARCHAR(60) NOT NULL,joining_year INT NOT NULL,PRIMARY KEY(name)); </p>
+
 Inser data in created table with below command
+
 <p> INSERT INTO engineer VALUE ("abdul", "developer", "etrans", 2019); </p>
+
 ![Alt text](https://github.com/qayoom321/tomcat/blob/main/insert-db.png "mysql insert")
 
 ## Step:
+
 check the table "engineer" with below command
+
 <p> select * from engineer; </p>
+
 ![Alt text](https://github.com/qayoom321/tomcat/blob/main/table.png "mysql table")
 
 Configure db in tomcat
